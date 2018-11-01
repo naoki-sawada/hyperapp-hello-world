@@ -1,25 +1,25 @@
 # Hyperapp hello world
 
-# About
+## About
 
-This is the my first [hyperapp](https://hyperapp.js.org/) application.
+My first [hyperapp](https://hyperapp.js.org/) application.
 
-# Requirements
+## Requirements
 
-* Node.js
+* Node.js v8
 
-# Install
+## Install
 
-```
+```shell
 $ yarn install
 ```
 
-# Usage
+## Usage
 
- ```
- $ yarn start
- ```
+```shell
+$ yarn start
+```
 
- # License
+## License
 
- MIT
+[MIT](LICENSE)
