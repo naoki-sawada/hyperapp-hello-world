@@ -2,9 +2,9 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-  entry: __dirname + '/src/js/app.jsx',
+  entry: `${__dirname}/src/js/app.jsx`,
   output: {
-    path: __dirname + '/www/js',
+    path: `${__dirname}/www/js`,
     publicPath: '/www/',
     filename: 'bundle.js',
   },
@@ -27,4 +27,4 @@ module.exports = {
     ],
   },
   plugins: [],
-}
+};
