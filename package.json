@@ -5,21 +5,22 @@
   "author": "Naoki Sawada",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
-    "watch:webpack": "webpack --watch",
+    "build": "webpack --mode production",
+    "watch:webpack": "webpack --watch --mode development",
     "watch:browser": "browser-sync start --config bs-config.js",
     "watch": "npm run watch:browser & npm run watch:webpack",
-    "start": "npm run watch"
+    "dev": "npm run watch"
   },
   "dependencies": {
-    "@hyperapp/html": "^0.5.1",
-    "hyperapp": "^1.0.1"
+    "@hyperapp/html": "^1.1.1",
+    "hyperapp": "^1.2.9"
   },
   "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "babel-loader": "^8.0.4",
     "babel-plugin-transform-h-jsx": "^1.0.0",
-    "browser-sync": "^2.23.2",
-    "webpack": "^3.10.0"
+    "browser-sync": "^2.26.3",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
   }
 }
