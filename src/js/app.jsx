@@ -1,4 +1,5 @@
 import { h, app } from "hyperapp";
+import { withLogger } from "@hyperapp/logger";
 
 const state = {
   count: 0
@@ -24,4 +25,4 @@ const view = (state, actions) => (
   </div>
 );
 
-const main = app(state, actions, view, document.body);
+const main = withLogger(app)(state, actions, view, document.body);
