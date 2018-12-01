@@ -16,8 +16,16 @@ $ yarn install
 
 ## Usage
 
+### For develop
+
 ```shell
 $ yarn start
+```
+
+### For production
+
+```shell
+$ yarn build
 ```
 
 ## License
