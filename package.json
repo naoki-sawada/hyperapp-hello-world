@@ -1,6 +1,6 @@
 {
   "name": "hyperapp-hello-world",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "author": "Naoki Sawada",
   "license": "MIT",
@@ -9,14 +9,13 @@
     "start": "webpack-dev-server --config webpack.dev.js"
   },
   "dependencies": {
-    "@hyperapp/html": "^1.1.1",
-    "@hyperapp/logger": "^0.5.0",
-    "hyperapp": "^1.2.9"
+    "hyperapp": "^2.0.0-alpha.10"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.4.4",
     "babel-loader": "^8.0.4",
-    "babel-plugin-transform-h-jsx": "^1.0.0",
     "clean-webpack-plugin": "^1.0.0",
     "copy-webpack-plugin": "^4.6.0",
     "webpack": "^4.23.1",
